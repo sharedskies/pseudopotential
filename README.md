@@ -4,7 +4,7 @@ Valence Electron - Noble Gas Atom Pseudopotentials for Atomic Spectral Line Shap
 
 This Fortran program and accompanying data may be used to compute the long range interaction of a polarizable atom or molecule with an atom with one excited electron.  
 
-While it depends on adjustable parameters, they may be estimated from first principles or refined by matching some states to known a priori calculation or experiments. It returns the eigenstate energies as a function of atomic separation, and for those states gives the decomposition in the isolated atom basis states.  Thus it shows how states mix as a consequence of atomic interactions, and reveals the changes in apparent dipole transition probability for atomic states during collsion.  The resulting long range potentials are more accurate than simply assuming a Van der Waals potential for computing neutral atom collision line broadenign, and are useful as a guide to convergence at long range of *a priori* models.  
+While it depends on adjustable parameters, they may be estimated from first principles or refined by matching some states to known first principles calculations or experiments. It returns the eigenstate energies as a function of atomic separation, and for those states gives the decomposition in the isolated atom basis states.  Thus it shows how states mix as a consequence of atomic interactions, and reveals the changes in apparent dipole transition probability for atomic states during collsion.  The resulting long range potentials are more accurate than simply assuming a Van der Waals potential for computing neutral atom collision line broadenign, and are useful as a guide to convergence at long range of *a priori* models.  
 
 ## Version
 
@@ -32,9 +32,9 @@ The program produces data formatted for use with [Grace](https://plasma-gate.wei
 
 ## Data
 
-Excecution requires files for the state energies, pseudopotential parameters, and the range of atomic separations to be computed.  Examples are provided in the data directory.
+Excecution requires files for the state energies, pseudopotential parameters, and the range of atomic separations to be computed.  Examples are provided in the data directory. Links here are to H-He.
 
-### states.dat --
+### [states.dat](data/hhe/states.dat) 
 
 *   Asymptotic state energies and quantum numbers with the format (5(1x,F10.3))
 **   ENERGY (CM-1)
@@ -43,7 +43,7 @@ Excecution requires files for the state energies, pseudopotential parameters, an
 **   J
 **   M
 
-### param.dat --
+### [param.dat](data/hhe/param.dat)
 
 *   Parameters defining the potential
 **   ALPHA - Polarizability in A^3
@@ -53,7 +53,7 @@ Excecution requires files for the state energies, pseudopotential parameters, an
 **   JVSELECT - Eigenvector selected for listing
 **   NLOW - Lowest state for tabulation
 
-### range.dat --
+### [range.dat](data/hhe/range.dat) 
 
 *   Range of atomic separations used in the output files
 **   RBEGIN - Starting R in A
