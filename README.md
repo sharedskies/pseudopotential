@@ -4,7 +4,7 @@ Valence Electron - Noble Gas Atom Pseudopotentials for Atomic Spectral Line Shap
 
 This Fortran program and accompanying data may be used to compute the long range interaction of a polarizable atom or molecule with an atom with one excited electron.  
 
-While it depends on adjustable parameters, they may be estimated from first principles or refined by matching some states to accepted calculations or experiments. It returns the eigenstate energies as a function of atomic separation, and for those states gives the decomposition in the isolated atom basis states.  Thus it shows how states mix as a consequence of atomic interactions, and reveals the changes in apparent dipole transition probability for atomic states during collsion.  The resulting long range potentials are more accurate than simply assuming a Van der Waals potential for computing neutral atom collision line broadenign, and are useful as a guide to convergence at long range of *a priori* models.  
+While it depends on adjustable parameters, they may be estimated from first principles or refined by matching some states to accepted calculations or experiments. It returns the eigenstate energies as a function of atomic separation, and for those states gives the decomposition in the isolated atom basis states.  Thus it shows how states mix as a consequence of atomic interactions, and reveals the changes in apparent dipole transition probability for atomic states during collsion.  The resulting long range potentials are more accurate than simply assuming a Van der Waals potential for computing neutral atom collision line broadening, and are useful as a guide to convergence at long range of *a priori* models.  
 
 ## Version
 
