@@ -1,17 +1,14 @@
 # pseudopotential
 
-Valence Electron - Noble Gas Atom Pseudopotentials  for Atomic Spectral Line Shape Calculations
+Valence Electron - Noble Gas Atom Pseudopotentials for Atomic Spectral Line Shape Calculations
 
-This Fortran program and accompanying data may be used to compute the long range interaction a polarizable atom or molecule with  an atom with one excited electron.  
-While it depends on adjustable parameters, they may be estimated from first principles or refined by matching some states to known a prior calculation or experiments.
-It returns the eigenstate energies as a function of atomic separation, and for those states gives the decomposition in the isolated atom basis states.  Thus it shows how states
-mix as a consequence of atomic interactions, and reveals the changes in apparent dipole transition probability for atomic states during collsion.  The resulting long range potentials
-are more accurate than simply assuming a Van der Waals potential for computing neutral atom collision line broadenign, and are useful as a guide to convergence at long range
-of a priori models.  
+This Fortran program and accompanying data may be used to compute the long range interaction of a polarizable atom or molecule with an atom with one excited electron.  
+
+While it depends on adjustable parameters, they may be estimated from first principles or refined by matching some states to known a priori calculation or experiments. It returns the eigenstate energies as a function of atomic separation, and for those states gives the decomposition in the isolated atom basis states.  Thus it shows how states mix as a consequence of atomic interactions, and reveals the changes in apparent dipole transition probability for atomic states during collsion.  The resulting long range potentials are more accurate than simply assuming a Van der Waals potential for computing neutral atom collision line broadenign, and are useful as a guide to convergence at long range of *a priori* models.  
 
 ## Version
 
-The first version of this code was completed  on 1989-04-22 for use with VAX Fortran.  It has been through several version since then and the one released here 
+The first version of this code was completed on 1989-04-22 for use with VAX Fortran.  It has been through several versions since then and the one released here 
 from 2019-11-28 has been annotated for use with H-He.  
 
 ## Features and limitations
@@ -29,8 +26,7 @@ All of the Fortran source code is one file: potnl.f
 
 ## Dependencies
 
-This code has its origins in Fortran version that are now out of date, but it will compile without error on Linux with the Gnu Fortran compiler as of 2021.  See Compile for more
-information.
+This code has its origins in Fortran version that are now out of date, but it will compile without error on Linux with the Gnu Fortran compiler as of 2021.  See Compile for more information.
 
 The program produces data formatted for use with [https://plasma-gate.weizmann.ac.il/Grace/](Grace).
 
@@ -104,7 +100,7 @@ The program will create two files:
 
 ### Documentation
 
-The pdf file in documents describes the physics implemented in this code.
+The pdf file in documents describes the physics implemented in this code.  The source code is annotated with programming support.
 
 
 ### References
