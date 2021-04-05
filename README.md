@@ -26,7 +26,7 @@ All of the Fortran source code is one file: potnl.f
 
 ## Dependencies
 
-This code has its origins in Fortran version that are now out of date, but it will compile without error on Linux with the Gnu Fortran compiler as of 2021.  See Compile for more information.
+This code has its origins in Fortran versions that are now out of date, but it will compile without error on Linux with the Gnu Fortran compiler as of 2021.  See Compile for more information.
 
 The program produces data formatted for use with [Grace](https://plasma-gate.weizmann.ac.il/Grace/).
 
