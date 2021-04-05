@@ -13,12 +13,12 @@ from 2019-11-28 has been annotated for use with H-He.
 
 ## Features and limitations
 
-[bp] Computes energies and eigenvalues for alkali-noble gas potentials
-[bp] Pseudopotential with spherical cutoff
-[bp] Induced dipole outside depends on polarizability
-[bp] Gombas contact term depends on a perturber electron density parameter
-[bp] Fermi contact inside depends on scattering length
-[bp] Core-core interaction model is the same for all states and is not included 
+* Computes energies and eigenvalues for alkali-noble gas potentials
+* Pseudopotential with spherical cutoff
+* Induced dipole outside depends on polarizability
+* Gombas contact term depends on a perturber electron density parameter
+* Fermi contact inside depends on scattering length
+* Core-core interaction model is the same for all states and is not included 
 
 ## Source
 
@@ -28,7 +28,7 @@ All of the Fortran source code is one file: potnl.f
 
 This code has its origins in Fortran version that are now out of date, but it will compile without error on Linux with the Gnu Fortran compiler as of 2021.  See Compile for more information.
 
-The program produces data formatted for use with [https://plasma-gate.weizmann.ac.il/Grace/](Grace).
+The program produces data formatted for use with [Grace](https://plasma-gate.weizmann.ac.il/Grace/).
 
 ## Data
 
@@ -109,11 +109,11 @@ See the documentation for details about this version of the code and the science
 
 ### License
 
-Distributed under the [https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt](MIT License). 
+Distributed under the [MIT License]([https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt). 
 
 
 ### Contact
 
-[https://www.astro.louisville.edu/john_kielkopf](John Kielkopf, Professor of Physics and Astronomy, University of Louisville)
+[John Kielkopf, Professor of Physics and Astronomy, University of Louisville](https://www.astro.louisville.edu/john_kielkopf)
 [jkielkopf@gmail.com](mailto:jkielkopf@gmail.com)
 
