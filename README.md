@@ -37,6 +37,7 @@ Excecution requires files for the state energies, pseudopotential parameters, an
 ### [states.dat](data/hhe/states.dat) 
 
 *   Asymptotic state energies and quantum numbers with the format (5(1x,F10.3))
+
 **   ENERGY (CM-1)
 **   N*
 **   L
@@ -46,6 +47,7 @@ Excecution requires files for the state energies, pseudopotential parameters, an
 ### [param.dat](data/hhe/param.dat)
 
 *   Parameters defining the potential
+
 **   ALPHA - Polarizability in A^3
 **   R0 - Cutoff radius for nobel gas
 **   SL - Scatttering length in A (not used in this version)
@@ -56,6 +58,7 @@ Excecution requires files for the state energies, pseudopotential parameters, an
 ### [range.dat](data/hhe/range.dat) 
 
 *   Range of atomic separations used in the output files
+
 **   RBEGIN - Starting R in A
 **   RDEL - Delta R in A
 **   NPTS - Number of points to compute
