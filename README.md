@@ -118,5 +118,5 @@ Distributed under the [MIT License](https://github.com/git/git-scm.com/blob/main
 
 [John Kielkopf, Professor of Physics and Astronomy, University of Louisville](https://www.astro.louisville.edu/john_kielkopf)
 
-[jkielkopf@gmail.com](mailto:jkielkopf@gmail.com)
+[john.kielkopf@louisville.edu](mailto:john.kielkopf@louisville.edu)
 
