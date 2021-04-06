@@ -102,7 +102,7 @@ The program will create two files:
 
 ### Documentation
 
-The pdf file in documents describes the physics implemented in this code.  The source code is annotated with programming support.
+The [Pseudopotentials.pdf](documentation/Pseudopotentials.pdf) file in documents describes the physics implemented in this code.  The source code is annotated with programming support.
 
 
 ### References
