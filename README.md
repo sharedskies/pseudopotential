@@ -22,7 +22,7 @@ from 2019-11-28 has been annotated for use with H-He.
 
 ## Source
 
-All of the Fortran source code is one file: potnl.f
+All of the Fortran source code is one file: [potnl.f](source/potnl.f)
 
 ## Dependencies
 
